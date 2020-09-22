@@ -1,4 +1,5 @@
-#Airplane Simulator
+Airplane Simulator
+===================
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/VisveshS/Airplane-Simulator-OpenGL3D/master/FlightSimulator/plane.png)
 
