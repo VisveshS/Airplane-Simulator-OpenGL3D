@@ -4,10 +4,10 @@ Airplane Simulator
 ![Image of Yaktocat](https://raw.githubusercontent.com/VisveshS/Airplane-Simulator-OpenGL3D/master/FlightSimulator/plane.png)
 
 **Execution**
+ 
+ 1. git clone and cd into Airplane-Simulator-OpenGL3D/FlightSimulator
 
- 1. cd build
-
- 2. cmake ..
+ 2. cmake .
 
  3. make
 
