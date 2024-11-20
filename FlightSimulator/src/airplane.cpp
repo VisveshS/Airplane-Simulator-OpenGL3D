@@ -97,17 +97,17 @@ Airplane::Airplane(glm::vec3 position) {
 	vertex_buffer_data[9*(n1+n+2)+8]=1.6;
 
 
-	vertex_buffer_data[9*(n1+n+1)+0]=-8;
-	vertex_buffer_data[9*(n1+n+1)+1]=0;
-	vertex_buffer_data[9*(n1+n+1)+2]=2.6;
+	vertex_buffer_data[9*(n1+n+3)+0]=-8;
+	vertex_buffer_data[9*(n1+n+3)+1]=0;
+	vertex_buffer_data[9*(n1+n+3)+2]=2.6;
 
-	vertex_buffer_data[9*(n1+n+1)+0]=-8;
-	vertex_buffer_data[9*(n1+n+1)+1]=0.1;
-	vertex_buffer_data[9*(n1+n+1)+2]=1.1;
+	vertex_buffer_data[9*(n1+n+3)+3]=-8;
+	vertex_buffer_data[9*(n1+n+3)+4]=0.1;
+	vertex_buffer_data[9*(n1+n+3)+5]=1.1;
 
-	vertex_buffer_data[9*(n1+n+1)+0]=-8;
-	vertex_buffer_data[9*(n1+n+1)+1]=-0.1;
-	vertex_buffer_data[9*(n1+n+1)+2]=1.1;
+	vertex_buffer_data[9*(n1+n+3)+6]=-8;
+	vertex_buffer_data[9*(n1+n+3)+7]=-0.1;
+	vertex_buffer_data[9*(n1+n+3)+8]=1.1;
 
 	for(int i=0;i<3*n;i++)
 	{
